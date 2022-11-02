@@ -1,6 +1,7 @@
 {
   "scripts": {
     "build": "tsc",
+    "start": "ts-node app.ts",
     "dev": "nodemon app.ts --exec ts-node js.ejs"
   },
   "dependencies": {
